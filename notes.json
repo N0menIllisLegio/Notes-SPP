@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "title": "СПП_",
+        "content": "лабы 1-5 + курсач",
+        "date": "2019-05-03",
+        "complete": true
+    },
+    {
+        "id": 2,
+        "title": "МиАПР v2",
+        "content": "лабы 6-9",
+        "date": "2019-02-24",
+        "complete": false
+    },
+    {
+        "id": 3,
+        "title": "МиАПР",
+        "content": "лабы 1-5",
+        "date": "2019-02-07",
+        "complete": true
+    },
+    {
+        "id": 4,
+        "title": "БД",
+        "content": "лаба 5",
+        "date": "",
+        "complete": false
+    },
+    {
+        "id": 5,
+        "title": "strikeout",
+        "content": "https://gist.github.com/alepez/9205394",
+        "date": "",
+        "complete": false
+    },
+    {
+        "id": 6,
+        "title": "DADA",
+        "content": "DiskStorage\r\nThe disk storage engine gives you full control on storing files to disk.\r\n\r\nvar storage = multer.diskStorage({\r\n  destination: function (req, file, cb) {\r\n    cb(null, '/tmp/my-uploads')\r\n  },\r\n  filename: function (req, file, cb) {\r\n    cb(null, file.fieldname + '-' + Date.now())\r\n  }\r\n})\r\n\r\nvar upload = multer({ storage: storage })\r\nThere are two options available, destination and filename. They are both functions that determine where the file should be stored.\r\n\r\ndestination is used to determine within which folder the uploaded files should be stored. This can also be given as a string (e.g. '/tmp/uploads'). If no destination is given, the operating system’s default directory for temporary files is used.\r\n\r\nNote: You are responsible for creating the directory when providing destination as a function. When passing a string, multer will make sure that the directory is created for you.\r\n\r\nfilename is used to determine what the file should be named inside the folder. If no filename is given, each file will be given a random name that doesn’t include any file extension.\r\n\r\nNote: Multer will not append any file extension for you, your function should return a filename complete with an file extension.\r\n\r\nEach function gets passed both the request (req) and some information about the file (file) to aid with the decision.\r\n\r\nNote that req.body might not have been fully populated yet. It depends on the order that the client transmits fields and files to the server.",
+        "date": "2019-03-06",
+        "complete": false
+    },
+    {
+        "id": 7,
+        "title": "СТиАОС",
+        "content": "<div class=\"input-group mb-3\">\r\n    <div class=\"input-group-prepend\">\r\n      <span class=\"input-group-text\">Default</span>\r\n    </div>\r\n    <input type=\"text\" class=\"form-control\">\r\n  </div>",
+        "date": "2019-03-21",
+        "complete": true
+    },
+    {
+        "id": 8,
+        "title": "NEW",
+        "content": "SMTH",
+        "date": "2019-02-26",
+        "complete": true
+    },
+    {
+        "id": 9,
+        "title": "СПП",
+        "content": "qwertyu",
+        "date": "",
+        "complete": false
+    },
+    {
+        "id": 10,
+        "title": "ghff",
+        "content": "frrrrrrrrrrrrr",
+        "date": "2019-03-23",
+        "complete": true
+    }
+]

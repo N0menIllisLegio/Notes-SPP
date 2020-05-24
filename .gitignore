@@ -74,14 +74,5 @@ typings/
 
 # FuseBox cache
 .fusebox/
-files/temp/.DS_Store
-files/.DS_Store
 .DS_Store
-files/1/6eaSie7_rDE.jpg
-files/10/7f882ff2fcd7ce5823dea21360b7ee7e--marvel-dc-marvel-comics.jpg
-files/3/app.js
-files/3/Lab1.iml
-files/6/6eaSie7_rDE.jpg
-files/7/chrome_2017-08-30_15-43-36.png
-files/7/txt.txt
-files/8/180 copy.jpeg
+files/

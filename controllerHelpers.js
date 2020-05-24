@@ -4,7 +4,7 @@ module.exports.formatDate = function(strDate) {
 		output = "-"
 	} else {
 		let date = new Date(strDate);
-		output = date.toLocaleDateString("ru-RU", { weekday: 'long', year: 'numeric', month: 'short', day: 'numeric' });
+		output = date.toLocaleDateString("en-EN", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
 	}
 
 	return output;
